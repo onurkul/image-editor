@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Resim Düzenleyici | Onur KUL</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bu araç ile resimlerinizin parlaklık, doygunluk, ters çevirme ve gri tonlama gibi işlemlerini kolay bir şekilde yapabilirsiniz."
+    />
+    <meta name="author" content="Onur KUL" />
+    <meta name="publisher" content="Onur KUL" />
+    <meta name="robots" content="all" />
+    <meta name="revisit-after" content="1 Days" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:site_name" content="Onur KUL" />
+    <meta
+      property="og:image"
+      content="https://onurkul.com.tr/uploads/logo/logo_61fda0d03b48f0-92709354-65066295.png"
+    />
+    <meta property="og:image:width" content="180" />
+    <meta property="og:image:height" content="50" />
+    <meta property="og:type" content="website/" />
+    <meta property="og:title" content="Resim Düzenleyici | Onur KUL" />
+    <meta
+      property="og:description"
+      content="Bu araç ile resimlerinizin parlaklık, doygunluk, ters çevirme ve gri tonlama gibi işlemlerini kolay bir şekilde yapabilirsiniz."
+    />
+    <meta
+      property="og:url"
+      content="https://onurkul.com.tr/araclar/resim-duzenleyici/"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Onur KUL" />
+    <meta name="twitter:title" content="Resim Düzenleyici | Onur KUL" />
+    <meta
+      name="twitter:description"
+      content="Bu araç ile resimlerinizin parlaklık, doygunluk, ters çevirme ve gri tonlama gibi işlemlerini kolay bir şekilde yapabilirsiniz."
+    />
+    <meta
+      name="twitter:image"
+      content="https://onurkul.com.tr/uploads/logo/logo_61fda0d03b48f0-92709354-65066295.png"
+    />
+    <link
+      rel="canonical"
+      href="https://onurkul.com.tr/araclar/resim-duzenleyici/"
+    />
+    <link
+      rel="alternate"
+      href="https://onurkul.com.tr/araclar/resim-duzenleyici/"
+      hreflang="tr_TR"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://onurkul.com.tr/uploads/logo/favicon_62096e9aa3b474-30316417-17601085.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container disable">
+      <h1>Resim Düzenleyici</h1>
+      <div class="wrapper">
+        <div class="editor-panel">
+          <div class="filter">
+            <label class="title">Filtreler</label>
+            <div class="options">
+              <button id="brightness" class="active">Parlaklık</button>
+              <button id="saturation">Doygunluk</button>
+              <button id="inversion">Ters Çevirme</button>
+              <button id="grayscale">Gri Tonlama</button>
+            </div>
+            <div class="slider">
+              <div class="filter-info">
+                <p class="name">Parlaklık</p>
+                <p class="value">100%</p>
+              </div>
+              <input type="range" value="100" min="0" max="200" />
+            </div>
+          </div>
+          <div class="rotate">
+            <label class="title">Döndür ve Çevir</label>
+            <div class="options">
+              <button id="left"><i class="fa-solid fa-rotate-left"></i></button>
+              <button id="right">
+                <i class="fa-solid fa-rotate-right"></i>
+              </button>
+              <button id="horizontal">
+                <i class="bx bx-reflect-vertical"></i>
+              </button>
+              <button id="vertical">
+                <i class="bx bx-reflect-horizontal"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="preview-img">
+          <img src="image-placeholder.png" alt="preview-img" />
+        </div>
+      </div>
+      <div class="controls">
+        <button class="reset-filter">FİLTRELERİ SIFIRLA</button>
+        <div class="row">
+          <input type="file" class="file-input" accept="image/*" hidden />
+          <button class="choose-img">RESİM SEÇİN</button>
+          <button class="save-img">RESMİ KAYDET</button>
+        </div>
+      </div>
+      <div class="wrapper2">
+        <div class="router-center">
+          <div class="router">
+            <a class="icon" href="https://onurkul.com.tr/" target="_blank"
+              ><i class="fa-solid fa-house"></i
+            ></a>
+            <a class="icon-name" href="https://onurkul.com.tr/" target="_blank"
+              >Ana Sayfa</a
+            >
+          </div>
+        </div>
+        <div class="router-center2">
+          <div class="router">
+            <a
+              class="icon"
+              href="https://onurkul.com.tr/araclar/resim-boyutlandirma"
+              target="_blank"
+              ><i class="fa-solid fa-expand"></i
+            ></a>
+            <a
+              class="icon-name"
+              href="https://onurkul.com.tr/araclar/resim-boyutlandirma"
+              target="_blank"
+              >Resim Boyutlandır</a
+            >
+          </div>
+        </div>
+        <div class="router">
+          <a
+            class="icon"
+            href="https://onurkul.com.tr/araclar/resim-kirpma"
+            target="_blank"
+            ><i class="fa-solid fa-crop"></i
+          ></a>
+          <a
+            class="icon-name"
+            href="https://onurkul.com.tr/araclar/resim-kirpma"
+            target="_blank"
+            >Resim Kırp</a
+          >
+        </div>
+        <div class="router">
+          <a
+            class="icon"
+            href="https://onurkul.com.tr/araclar/resimden-renk-secme"
+            target="_blank"
+            ><i class="fa-solid fa-eye-dropper"></i
+          ></a>
+          <a
+            class="icon-name"
+            href="https://onurkul.com.tr/araclar/resimden-renk-secme"
+            target="_blank"
+            >Resimden Renk Seç</a
+          >
+        </div>
+      </div>
+      <div class="footer">
+        <a href="https://onurkul.com.tr/" target="_blank" class="onurkul"
+          >Telif Hakkı © 2023 Onur KUL - Tüm Hakları Saklıdır.</a
+        >
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
