@@ -1,4 +1,4 @@
-# Resim Düzenleyici
-Bu araç ile bir resmin parlaklığını, doygunluğunu, gri tonunlarını ayarlayabilir ve istediğiniz yönde döndürme işlemlerini yapabilirsiniz. 
+# Image Editor
+With this tool you can adjust the brightness, saturation, shades of gray and rotate an image in any direction. 
 
-Örnek: https://onurkul.com.tr/araclar/resim-duzenleyici/
+Example: https://onurkul.com.tr/araclar/resim-duzenleyici/
